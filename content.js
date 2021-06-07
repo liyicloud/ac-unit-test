@@ -31,7 +31,7 @@ function onClick(){
   var output = null;
   var io = [];
 
-  var sections = $("#task-statement section");
+  var sections = $("#show section");
   for(var i = 0; i < sections.length; i++){
     var section = $(sections[i]);
   

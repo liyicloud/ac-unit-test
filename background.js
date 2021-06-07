@@ -4,8 +4,8 @@ chrome.contextMenus.create({
     "id": "createUnitTest",
     "contexts" : ["page"],
     "documentUrlPatterns": [
-        "*://*.contest.atcoder.jp/tasks/*",
-        "*://atcoder.jp/contests/*/tasks/*"
+        "*://*.cloudace.topsic.org/examinations/*",
+        "*://cloudace.topsic.org/examinations/*"
     ]
 });
 

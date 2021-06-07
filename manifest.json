@@ -1,19 +1,19 @@
 {
-  "name": "AtCoder Unit Test",
-  "version": "2.1.5",
+  "name": "TOPSIC Unit Test",
+  "version": "0.0.1",
   "manifest_version": 2,
   "description": "__MSG_extDescription__",
   "default_locale": "en",
-  
+
   "applications": {
     "gecko": {
-      "id": "@acunittest"
+      "id": "@topsicunittest"
     }
   },
   
   "permissions" : [
-    "*://*.contest.atcoder.jp/tasks/*",
-    "*://atcoder.jp/contests/*/tasks/*",
+    "*://*.cloudace.topsic.org/examinations/*",
+    "*://cloudace.topsic.org/examinations/*",
     "contextMenus",
     "clipboardWrite",
     "storage"
@@ -30,8 +30,8 @@
   "content_scripts": [
         {
             "matches": [
-                "*://*.contest.atcoder.jp/tasks/*",
-                "*://atcoder.jp/contests/*/tasks/*"
+                "*://*.cloudace.topsic.org/examinations/*",
+                "*://cloudace.topsic.org/examinations/*"
             ],
             "js": [
                 "jquery-3.3.1.min.js",
