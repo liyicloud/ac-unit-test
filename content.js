@@ -32,6 +32,9 @@ function onClick(){
   var io = [];
 
   var sections = $("#show section");
+  if(sections.length == 0) {
+    sections = $("#proble_description section");
+  }
   for(var i = 0; i < sections.length; i++){
     var section = $(sections[i]);
   
